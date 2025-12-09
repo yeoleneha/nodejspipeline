@@ -1,8 +1,8 @@
-var express = require('express');
+var express = require('express')i;
                  
                 var app = express();//Respond with "hello world" for requests that hit our root "/"
                 app.get('/', function (req, res) {
-                 res.send('welcome to Jenkins server!!! ');
+                 res.send('welcome to Jenkins servers!!! ');
                 });//listen to port 3000 by default
                 app.listen(process.env.PORT || 3000);
                  
